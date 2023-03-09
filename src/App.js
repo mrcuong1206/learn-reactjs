@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import ExpenseForm from "./Components/Form/ExpenseForm";
 
 function App() {
   return (
-    <div className="App">
-      <p>Mr Cuong</p>
+    <div className="new-expense">
+      <ExpenseForm />
     </div>
   );
 }
